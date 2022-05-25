@@ -1,0 +1,50 @@
+[
+  {
+    "name": "camara lance ",
+    "price": 250,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 400,
+    "available_quantity": 1000
+  },
+  {
+    "name": "Lance",
+    "price": 200,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 500,
+    "available_quantity": 2000
+  },
+  {
+    "name": "box",
+    "price": 250,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 300,
+    "available_quantity": 1000
+  },
+  {
+    "name": "Folder",
+    "price": 250,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 400,
+    "available_quantity": 1000
+  },
+  {
+    "name": "tabe",
+    "price": 450,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 400,
+    "available_quantity": 1000
+  },
+  {
+    "name": "satol",
+    "price": 500,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRItn5D8Ba5Z1v9nqsibMLMCkPknc4xQxQg&usqp=CAU",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "minimum_order_quantity": 600,
+    "available_quantity": 1000
+  }
+]

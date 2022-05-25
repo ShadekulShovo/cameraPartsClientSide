@@ -1,23 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import MyPortfolio from "./Pages/MyPortfolio/MyPortfolio";
+import Login from "./Pages/Login/Login";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import Navbar from "./Pages/Shared/Navbar";
+import SignUp from "./Pages/Login/SignUp";
+import Purchase from "./Pages/ProductsServices/Purchase";
+import RequireAuth from "./Pages/Login/RequireAuth";
+
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import MyOrders from "./Pages/Dashboard/MyOrders";
+import AddReview from "./Pages/Dashboard/AddReview";
+import Users from "./Pages/Dashboard/Users";
+import Payment from "./Pages/Dashboard/Payment";
+import AddService from "./Pages/Dashboard/AddService";
+import ManageServices from "./Pages/Dashboard/ManageServices";
+import UpdateProfile from "./Pages/Dashboard/UpdateProfile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="myPortfolio" element={<MyPortfolio />} />
+        <Route
+          path="/purchase/:serviceId"
+          element={
+            <RequireAuth>
+              <Purchase />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/dashboard"
+          element={
+            <RequireAuth>
+              <Dashboard />
+            </RequireAuth>
+          }
         >
-          Learn React
-        </a>
-      </header>
+          <Route index element={<MyOrders></MyOrders>}></Route>
+          <Route path="review" element={<AddReview></AddReview>}></Route>
+          <Route path="addservice" element={<AddService></AddService>}></Route>
+          <Route path="payment/:id" element={<Payment></Payment>}></Route>
+          <Route
+            path="updateProfile/:serviceId"
+            element={<UpdateProfile></UpdateProfile>}
+          ></Route>
+          <Route path="users" element={<Users></Users>}></Route>
+          <Route
+            path="manageServices"
+            element={<ManageServices></ManageServices>}
+          ></Route>
+        </Route>
+
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<SignUp />} />
+      </Routes>
+      <ToastContainer />
     </div>
   );
 }
