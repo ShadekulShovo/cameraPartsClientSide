@@ -11,10 +11,12 @@ const Dashboard = () => {
     <div class="drawer drawer-mobile">
       <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content ">
-        <h2 className="text-3xl text-purple-500 font-bold">
+        <h1 className="text-3xl text-green-500 font-bold text-center">
           {" "}
-          wellcome to my dashbord
-        </h2>
+          Wellcome to Dashboard
+        </h1>
+
+        <br />
 
         <Outlet></Outlet>
       </div>
@@ -28,7 +30,7 @@ const Dashboard = () => {
             <Link to="/dashboard/review"> Add Review</Link>
           </li>
           <li>
-            <Link to="/dashboard/addservice"> Add New Service</Link>
+            <Link to="/dashboard/addservice"> Add New Product</Link>
           </li>
           <li>
             <Link to="/dashboard/updateProfile/:serviceId">
