@@ -9,7 +9,7 @@ const Banner = () => {
           <div className=" max-w-3xl">
             <h1 class="text-5xl font-bold">Camera Parts </h1>
             <h2 class="text-3xl">For All Of Photography Enthusiast.</h2>
-            <h3 class="text-2xl font-bold">Choose Which PARTAS you NEED!!!</h3>
+            <h3 class="text-2xl font-bold">Choose Which PARTS you NEED!!!</h3>
 
             <p class="py-6">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
