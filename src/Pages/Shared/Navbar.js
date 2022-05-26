@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/myPortfolio">Portfoliot</Link>
+        <Link to="/myPortfolio">Portfolio</Link>
       </li>
 
       {user && (
@@ -73,7 +73,7 @@ const Navbar = () => {
           for="my-drawer-2"
           class="btn btn-primary drawer-button lg:hidden"
         >
-          Open drawer
+          Open Drawer
         </label>
       </div>
     </div>
