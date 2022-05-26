@@ -29,13 +29,13 @@ const Payment = () => {
 
   return (
     <div>
-      <h2 className="text-2xl text-purple-500"> please pay for: {id}</h2>
+      <h2 className="text-2xl text-purple-500"> Make Payment For: {id}</h2>
 
       <div class="card w-96 bg-base-100 shadow-xl mb-10">
         <div class="card-body">
           <h2 class="card-title">Product Name : {service.serviceName}</h2>
-          <p>price: {service.price} </p>
-          <p>Product Quantati: {service.purchase_quantity} pice </p>
+          <p>Price: {service.price} </p>
+          <p>Product Quantity: {service.purchase_quantity} pice </p>
           <p>Customer Email: {service.customer_email} </p>
         </div>
       </div>
