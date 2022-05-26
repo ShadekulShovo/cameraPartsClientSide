@@ -150,7 +150,7 @@ const Login = () => {
             onClick={() => signInWithGoogle()}
             class="btn btn-outline btn-success"
           >
-            contunue with google
+            Continue With GOOGLE
           </button>
         </div>
       </div>
