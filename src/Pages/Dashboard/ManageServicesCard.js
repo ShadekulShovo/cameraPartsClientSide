@@ -4,7 +4,7 @@ const ManageServicesCard = ({ service, setServices, index }) => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure Remove items??");
     if (proceed) {
-      const url = `http://localhost:8000/service/${id}`;
+      const url = `https://pure-depths-02342.herokuapp.com/service/${id}`;
       fetch(url, {
         method: "DELETE",
         headers: {

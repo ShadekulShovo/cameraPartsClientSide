@@ -4,7 +4,7 @@ import ServicesCard from "../ProductsServices/ServicesCard";
 const Tools = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/service")
+    fetch("https://pure-depths-02342.herokuapp.com/service")
       .then((response) => response.json())
       .then((data) => setServices(data));
   }, []);

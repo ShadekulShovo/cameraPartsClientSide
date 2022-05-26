@@ -14,7 +14,7 @@ const AddReview = () => {
 
     const review = { name, comment, rating, email };
 
-    fetch("http://localhost:8000/review", {
+    fetch("https://pure-depths-02342.herokuapp.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -8,7 +8,7 @@ const Purchase = () => {
   const { serviceId } = useParams();
   const [service, setService] = useState({});
   useEffect(() => {
-    const url = `http://localhost:8000/service/${serviceId}`;
+    const url = `https://pure-depths-02342.herokuapp.com/service/${serviceId}`;
     fetch(url)
       .then((response) => response.json())
       .then((data) => setService(data));
@@ -30,7 +30,7 @@ const Purchase = () => {
       mobile: event.target.mobile.value,
     };
 
-    fetch("http://localhost:8000/booking", {
+    fetch("https://pure-depths-02342.herokuapp.com/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",

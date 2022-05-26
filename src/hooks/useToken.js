@@ -1,32 +1,27 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-const useToken = user =>{
-    const [token, setToken] = useState('');
-    useEffect(()=>{
+const useToken = (user) => {
+  const [token, setToken] = useState("");
+  useEffect(() => {
     const email = user?.user?.email;
-    const currentUser = {email:email};
-    if(email){
-        fetch(`http://localhost:8000/user/${email}`,{
-            method:'PUT',
-            headers:{
-                'content-type':'application/json'
-
-            },
-            body:JSON.stringify(currentUser)
-
-
-        })
-        .then(res=>res.json())
-        .then(data =>{
-            console.log('data inside useToken',data);
-            const accessToken = data.token;
-            localStorage.setItem('accessToken',accessToken);
-            setToken(accessToken);
-        })
+    const currentUser = { email: email };
+    if (email) {
+      fetch(`https://pure-depths-02342.herokuapp.com/user/${email}`, {
+        method: "PUT",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(currentUser),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("data inside useToken", data);
+          const accessToken = data.token;
+          localStorage.setItem("accessToken", accessToken);
+          setToken(accessToken);
+        });
     }
-
-
-    },[user])
-    return [token];
-}
-export default useToken
+  }, [user]);
+  return [token];
+};
+export default useToken;
