@@ -56,7 +56,7 @@ const Purchase = () => {
           <div class="card-body">
             <img className="w-96" src={service.image} alt="" />
             <h2 class="card-title">name:{service.name}</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Best Quality Products Around.</p>
           </div>
         </div>
 
