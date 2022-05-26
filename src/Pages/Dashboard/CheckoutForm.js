@@ -68,7 +68,7 @@ const CheckoutForm = ({ service }) => {
       setCardError("");
       setTransactionId(paymentIntent.id);
       console.log(paymentIntent);
-      setSuccess("Your payment is completed");
+      setSuccess("Your Payment is completed");
 
       //PAYMENT DATA BASE
       const payment = {
@@ -99,9 +99,9 @@ const CheckoutForm = ({ service }) => {
             style: {
               base: {
                 fontSize: "16px",
-                color: "#424770",
+                color: "#FFFFFF",
                 "::placeholder": {
-                  color: "#aab7c4",
+                  color: "#FFFFFF",
                 },
               },
               invalid: {

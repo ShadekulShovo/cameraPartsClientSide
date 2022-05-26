@@ -26,8 +26,8 @@ const Navbar = () => {
       )}
       <li>
         {user ? (
-          <button class="btn btn-secondary" onClick={logout}>
-            Signout{" "}
+          <button class="btn btn-secondary ml-2" onClick={logout}>
+            Sign out{" "}
           </button>
         ) : (
           <Link to="/login">Login</Link>
