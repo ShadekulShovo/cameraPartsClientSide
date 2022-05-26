@@ -5,18 +5,18 @@ const Footer = () => {
     <div>
       <footer class="footer p-10 bg-base-300 text-base-content">
         <div>
-          <span class="footer-title">Services</span>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+          <span class="footer-title">Category</span>
+          <a class="link link-hover">Products</a>
+          <a class="link link-hover">Best Sellers</a>
+          <a class="link link-hover">Trending</a>
+          <a class="link link-hover">Upcoming</a>
         </div>
         <div>
           <span class="footer-title">Company</span>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Contact Us</a>
+          <a class="link link-hover">Career</a>
+          <a class="link link-hover">Blog</a>
         </div>
         <div>
           <span class="footer-title">Social</span>
