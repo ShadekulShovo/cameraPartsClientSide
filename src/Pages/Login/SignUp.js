@@ -60,7 +60,7 @@ const SignUp = () => {
 
                 <input
                   type="text"
-                  placeholder="you Name"
+                  placeholder="Your Name"
                   class="input input-bordered w-full max-w-xs"
                   {...register("name", {
                     required: {
@@ -85,7 +85,7 @@ const SignUp = () => {
 
                 <input
                   type="email"
-                  placeholder="your email"
+                  placeholder="Your E-mail"
                   class="input input-bordered w-full max-w-xs"
                   {...register("email", {
                     required: {
@@ -94,7 +94,7 @@ const SignUp = () => {
                     },
                     pattern: {
                       value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-                      message: "Provide a valid Email",
+                      message: "Provide a Valid Email",
                     },
                   })}
                 />
@@ -119,7 +119,7 @@ const SignUp = () => {
 
                 <input
                   type="password"
-                  placeholder="your Password"
+                  placeholder="Enter Password"
                   class="input input-bordered w-full max-w-xs"
                   {...register("password", {
                     required: {
@@ -154,10 +154,11 @@ const SignUp = () => {
               />
             </form>
 
+            <br />
             <p>
-              Motor Parts{" "}
+              Camera Parts{" "}
               <Link to="/login">
-                <span className="text-primary">Login</span>
+                <span className="text-success">Login</span>
               </Link>
             </p>
 
@@ -165,7 +166,7 @@ const SignUp = () => {
 
             <button
               onClick={() => signInWithGoogle()}
-              class="btn btn-outline btn-success"
+              class="btn btn-outline btn-primary"
             >
               Continue With GOOGLE
             </button>

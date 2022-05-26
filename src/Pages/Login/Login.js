@@ -68,7 +68,7 @@ const Login = () => {
 
               <input
                 type="email"
-                placeholder="your email"
+                placeholder="Enter Your E-mail"
                 class="input input-bordered w-full max-w-xs"
                 {...register("email", {
                   required: {
@@ -102,7 +102,7 @@ const Login = () => {
 
               <input
                 type="password"
-                placeholder="your Password"
+                placeholder="Type Password"
                 class="input input-bordered w-full max-w-xs"
                 {...register("password", {
                   required: {
@@ -148,7 +148,7 @@ const Login = () => {
 
           <button
             onClick={() => signInWithGoogle()}
-            class="btn btn-outline btn-success"
+            class="btn btn-outline btn-primary"
           >
             Continue With GOOGLE
           </button>

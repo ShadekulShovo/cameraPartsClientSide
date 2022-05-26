@@ -44,29 +44,29 @@ const AddService = () => {
             />
             <input
               className="input input-bordered w-full max-w-xs mb-3"
-              placeholder="Photo url"
+              placeholder="Photo URL"
               {...register("image")}
             />
             <textarea
               className="mb-2 input input-bordered w-full max-w-xs"
-              placeholder="description"
+              placeholder="Description"
               {...register("description")}
             />
             <input
               className="input input-bordered w-full max-w-xs mb-3"
-              placeholder="minimum_order_quantity"
+              placeholder="Minimum Order Quantity"
               type="number"
               {...register("minimum_order_quantity")}
             />
             <input
               className="input input-bordered w-full max-w-xs mb-3"
-              placeholder="available_quantity"
+              placeholder="Available Quantity"
               type="number"
               {...register("available_quantity")}
             />
             <input
               className="input input-bordered w-full max-w-xs mb-3"
-              placeholder="User Email "
+              placeholder="User E-mail "
               value={user.email}
               {...register("email")}
               readOnly
