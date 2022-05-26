@@ -30,10 +30,10 @@ const MyPortfolio = () => {
                 </span>{" "}
               </h3>
               <p class="py-6 text-xl font-mono ">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui,
-                est! Iusto provident, fugiat molestias quia qui illum totam
-                quae, reiciendis, ullam laudantium nesciunt accusantium nostrum
-                officiis nemo voluptatem eum consectetur?
+                I am proficient in blog, article and web content writing. I am
+                also good at SERP analysis and keyword research. I also do web
+                development. The skills I have is HTML, CSS, Javascript, Python,
+                Django, MySQL, MongoDB etc.
               </p>
               <p className="text-xl font-mono ">
                 I am studying in Computer Science and Engineering Department at
@@ -41,13 +41,13 @@ const MyPortfolio = () => {
               </p>
               <br />
               <p className="text-xl font-mono ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda ipsum soluta dicta quam itaque explicabo!
+                My dream is to be the{" "}
+                <span className="text-red-500">Prime Minister</span> of
+                Bangladesh one day.
               </p>
-
               <br />
               <br />
-              <p className="text-3xl font-bold"> My Three Project </p>
+              <p className="text-3xl font-bold"> My Three Project </p> <br />
               <a
                 href="https://shadekulshovo.github.io/webDay5Assignment/"
                 target="_blank"
@@ -56,7 +56,7 @@ const MyPortfolio = () => {
                 <span className="text-xl text-orange-500">
                   <p>
                     {" "}
-                    <li>Project-1</li>
+                    <li>Project-3</li>
                   </p>
                 </span>
               </a>
@@ -77,7 +77,7 @@ const MyPortfolio = () => {
                 <span className="text-xl text-orange-500">
                   <p>
                     {" "}
-                    <li>Project-3</li>
+                    <li>Project-1</li>
                   </p>
                 </span>
               </a>
