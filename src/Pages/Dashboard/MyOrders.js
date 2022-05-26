@@ -29,7 +29,7 @@ const MyOrders = () => {
   return (
     <div>
       <h1 className="text-2xl font-mono font-bold text-center mb-3 text-secondary uppercase">
-        Yor Order : {orders.length} Items
+        Your Order : {orders.length} Items
       </h1>
       <div class="overflow-x-auto">
         <table class="table w-full">
