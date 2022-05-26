@@ -2,10 +2,6 @@ import React from "react";
 
 const Loading = () => {
   return (
-    // <div className='h-screen flex justify-center items-center'>
-    //    <button class="btn loading">loading</button>
-
-    // </div>
     <div class="flex items-center justify-center space-x-2">
       <div
         class="spinner-border animate-spin inline-block w-12 h-12 border-4 rounded-full"

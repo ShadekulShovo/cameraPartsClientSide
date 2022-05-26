@@ -37,15 +37,12 @@ const Login = () => {
   if (loading || gLoading) {
     return <Loading></Loading>;
   }
-  // if(user|| gUser){
-  //     console.log(user||gUser)
-  //     navigate(from, { replace: true });
-  // }
+ 
 
   const onSubmit = (data) => {
     console.log(data);
     signInWithEmailAndPassword(data.email, data.password);
-    // navigate("/appointment");
+
   };
 
   let signInError;
