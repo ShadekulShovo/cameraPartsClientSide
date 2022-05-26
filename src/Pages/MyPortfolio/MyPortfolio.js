@@ -17,11 +17,16 @@ const MyPortfolio = () => {
             </div>
 
             <div className=" max-w-3xl">
-              <h1 class="text-5xl font-bold">
-                HELLO' THIS IS <br />
-                Shadekul Shovo <br />
+              <h2 class="text-4xl font-bold">
+                As Slamu Alaykum <br />
+              </h2>
+              <h2 className=" text-5xl font-bold text-green-500">
+                I am S. K. M Shadekul Islam{" "}
+              </h2>
+              <br />
+              <h3>
                 <span className=" text-3xl">Expert in Development</span>{" "}
-              </h1>
+              </h3>
               <p class="py-6 text-xl font-mono ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui,
                 est! Iusto provident, fugiat molestias quia qui illum totam
