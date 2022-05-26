@@ -12,10 +12,8 @@ const Banner = () => {
             <h3 class="text-2xl font-bold">Choose Which PARTS you NEED!!!</h3>
 
             <p class="py-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium dignissimos possimus molestiae corporis quod illum
-              saepe? Quod earum cumque ipsam pariatur nisi excepturi delectus
-              dignissimos!
+              Show off your unique style with the best lenses and camera parts
+              created by featured artists and influencers!!!
             </p>
             <button class="btn btn-primary">Get an Appointment</button>
           </div>
