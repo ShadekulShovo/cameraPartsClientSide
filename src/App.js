@@ -18,6 +18,7 @@ import Payment from "./Pages/Dashboard/Payment";
 import AddService from "./Pages/Dashboard/AddService";
 import ManageServices from "./Pages/Dashboard/ManageServices";
 import UpdateProfile from "./Pages/Dashboard/UpdateProfile";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="myPortfolio" element={<MyPortfolio />} />
+        <Route path="blog" element={<Blog />} />
         <Route
           path="/purchase/:serviceId"
           element={

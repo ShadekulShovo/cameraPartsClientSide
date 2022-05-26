@@ -18,6 +18,9 @@ const Navbar = () => {
       <li>
         <Link to="/myPortfolio">Portfolio</Link>
       </li>
+      <li>
+        <Link to="/blog">Blog</Link>
+      </li>
 
       {user && (
         <li>
