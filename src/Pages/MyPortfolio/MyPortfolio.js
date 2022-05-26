@@ -49,7 +49,7 @@ const MyPortfolio = () => {
                 <span className="text-xl text-orange-500">
                   <p>
                     {" "}
-                    <li>Projec-1</li>
+                    <li>Project-1</li>
                   </p>
                 </span>
               </a>
@@ -58,7 +58,7 @@ const MyPortfolio = () => {
                 <span className="text-xl text-orange-500">
                   <p>
                     {" "}
-                    <li>Projec-2</li>
+                    <li>Project-2</li>
                   </p>
                 </span>
               </a>
@@ -70,7 +70,7 @@ const MyPortfolio = () => {
                 <span className="text-xl text-orange-500">
                   <p>
                     {" "}
-                    <li>Projec-3</li>
+                    <li>Project-3</li>
                   </p>
                 </span>
               </a>
